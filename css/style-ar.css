@@ -26,6 +26,18 @@ body.arabic {
 body.arabic .settings .mood {
 	direction: ltr;
 }
+/* Landing */
+@media (max-width: 767px) {
+    .landing .container .info h1 {
+		font-size: 34px;
+	}
+	.landing .container .info h1 span:nth-child(2) {
+		font-size: 33px;
+	}
+	.landing .container .info h2 {
+		font-size: 27px;
+	}
+}
 /* About */
 body.arabic .main-title::before,
 body.arabic .main-title::after {
