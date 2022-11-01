@@ -593,6 +593,14 @@ header .container .menu li.open>.toggle {
     font-weight: 600;
 	text-transform: capitalize;
 }
+@media (max-width:767px) {
+	.about .container h3 {
+		font-size: 25px;
+	}
+	.about .container .def p {
+		font-size: 16px;
+	}
+}
 .about .container .info .column {
     display: flex;
     justify-content: center;
@@ -613,7 +621,6 @@ header .container .menu li.open>.toggle {
 	.about .container .info .col li,
 	.about .container .info .col a {
 		padding: 10px;
-		font-size: 18px;
 	}
 }
 .about .container .info .col span {
