@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CDN FONTAWESOME -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<!-- LINK CSS STYLING -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-ar.css">
+	<title>Home</title>
+</head>
+<body>
+	<img class="bgland" src="images/bg1.png">
+	<!-- Start Settings -->
+	<div class="settings">
+		<div class="icon">
+			<i class="fas fa-cog fa-spin"></i>
+		</div>
+		<h3 data-lang="chlang">Change the language</h3>
+		<div class="languages">
+			<span data-change="ar" >العربية</span>
+			<span data-change="en"  class="active" >English</span>
+			<span data-change="fr" >Français</span>
+		</div>
+		<h3 data-lang="theme" >switch theme</h3>
+		<div class="mood">
+			<i class="fa-solid fa-sun"></i>
+			<span></span>
+			<i class="fa-solid fa-moon"></i>
+		</div>
+		<h3 data-lang="color" >pick color</h3>
+		<div class="colors">
+			<div class="color active" style="background-color: rgb(29, 153, 141);"></div>
+			<div class="color" style="background-color: rgb(244, 67, 54);"></div>
+			<div class="color" style="background-color: rgb(0, 255, 0);"></div>
+			<div class="color" style="background-color: rgb(205, 220, 57);"></div>
+			<div class="color" style="background-color: rgb(25, 161, 227);"></div>
+			<div class="color" style="background-color: rgb(118, 51, 237);"></div>
+			<div class="color" style="background-color: rgb(255, 87, 34);"></div>
+			<div class="color" style="background-color: rgb(233, 30, 99);"></div>
+		</div>
+	</div>
+	<!-- Start Header -->
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><span class="first-letter">i</span><span class="dn-phone">shak</span> <span class="first-letter">b</span><span class="dn-phone">enfredj</span></a>
+			</div>
+			<ul class="menu">
+				<i class="close fa-solid fa-xmark"></i>
+				<li><a class="active" data-lang="home" href="index.html">Home</a></li>
+				<li><span data-lang="lessons">Lessons</span> <i class="fa-solid fa-chevron-down"></i>
+					<div class="toggle">
+						<a href="#"><i class="fa-brands fa-html5"></i>HTML</a>
+						<a href="#"><i class="fa-brands fa-css3-alt"></i>CSS</a>
+						<a href="#"><i class="fa-brands fa-js"></i>JavaScript</a>
+					</div>
+				</li>
+				<li><span data-lang="ytb">YTB Channel</span> <i class="fa-solid fa-chevron-down"></i>
+					<div class="toggle">
+						<a href="#"><i class="fa-solid fa-code"></i>Front-end Tutorial</a>
+						<a href="#"><i class="fa-solid fa-shuffle"></i><span data-lang="mix">Mix</span></a>
+					</div>
+				</li>
+				<li><span data-lang="app">Applications</span> <i class="fa-solid fa-chevron-down"></i>
+					<div class="toggle">
+						<a href="#"><i class="fa-solid fa-code"></i>Front-end</a>
+						<a href="#"><i class="fa-solid fa-terminal"></i>Algorithms</a>
+					</div>
+				</li>
+				<li><a href="#" data-lang="articles">Articles</a></li>
+			</ul>
+			<div class="bars">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+	<!-- Start Landing -->
+	<div class="landing">
+		<div class="container">
+			<div class="info">
+				<h1 data-lang="name" >hi i'm <span>ishak</span> <span>djilali benfredj</span></h1>
+				<h2 data-lang="job" >web developer (Front-end) <br> & youtuber</h2>
+				<div class="social-media">
+					<a href=""><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+					<a href=""><i class="fa-brands fa-linkedin"></i></a>
+					<a href=""><i class="fa-solid fa-envelope"></i></a>
+					<a href=""><i class="fa-brands fa-youtube"></i></a>
+				</div>
+				<div class="links">
+					<a data-lang="download" download href="pdf/cv.pdf">Download CV</a>
+					<a data-lang="contactme"  href="#">Contact Me</a>
+				</div>
+			</div>
+			<div class="img">
+				<img src="images/personel.png">
+			</div>
+		</div>
+	</div>
+	<!-- End Landing -->
+	<!-- Start Information -->
+	<section class="about">
+		<h1 class="main-title" data-lang="about">about me</h1>
+		<div class="container">
+			<div class="def">
+				<h3 data-lang="whoim">who am I ?</h3>
+				<p data-lang="infper">I'm Ishak Djilali Benfredj, I work as a web developer (front end) and YouTuber.
+					I build websites using the following languages: HTML, Css, JavaScript and frameworks like React,
+					Bootstrap, what are you waiting for? , Contact me for work ... You can download my CV from here ...
+				</p>
+				<div class="links">
+					<a data-lang="download" download href="pdf/cv.pdf">Download CV</a>
+					<a data-lang="contactme"  href="#">Contact Me</a>
+				</div>
+			</div>
+			<div class="info">
+				<h3 data-lang="someinfo">some information</h3>
+				<div class="column">
+					<div class="col">
+						<li data-lang="nameinfo" ><span>name:</span> Ishak DJILALI BENFREDJ</li>
+						<li data-lang="birthday" ><span>birthday</span> 10 November 2003</li>
+						<a data-lang="phone"  href="tel:0541790205"><span>phone:</span> 0541790205</a>
+					</div>
+					<div class="col">
+						<a data-lang="mymail"  href="mailto:ishakbanfradje@gmail.com"><span>email:</span> ishakbanfradje@gmail.com</a>
+						<li data-lang="country" ><span>country:</span> Algeria</li>
+						<li data-lang="level" ><span>level:</span> University</li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Information -->
+	<!-- JavaScript -->
+	<script src="js/lang.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
