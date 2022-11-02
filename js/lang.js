@@ -28,7 +28,7 @@ const lang = {
 		phone : '<span>الهاتف:</span> 0541790205',
 		mymail : '<span>البريد:</span> ishakbanfradje@gmail.com',
 		country : '<span>البلد:</span> الجزائر',
-		level : '<span>المستوى:</span> جامعي',
+		level : '<span>الجامعة:</span> المدرسة العليا للاعلام الآلي',
 	},
 	en : {
 		// Start Settings
@@ -59,7 +59,7 @@ const lang = {
 		phone : '<span>phone:</span> 0541790205',
 		mymail : '<span>email:</span> ishakbanfradje@gmail.com',
 		country : '<span>country:</span> Algeria',
-		level : '<span>level:</span> University',
+		level : '<span>university:</span> ESI SBA',
 	},
 	fr : {
 		// Start Settings
@@ -90,6 +90,6 @@ const lang = {
 		phone : '<span>numéro:</span> 0541790205',
 		mymail : '<span>email:</span> ishakbanfradje@gmail.com',
 		country : '<span>pays:</span> Algérie',
-		level : '<span>niveau:</span> Ecole Supérieure (Université)',
+		level : "<span>université:</span> Ecole Supérieure D'Informatique",
 	}
 }
