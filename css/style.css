@@ -16,8 +16,9 @@ font-family: 'Vazirmatn', sans-serif;
 	--main-transition: .3s;
 }
 body.night {
-	--bg-pr: #000;
-	--bg-sc: #222020;
+	--bg-pr: #0f0f0f;
+	/* --bg-pr: #000; */
+	--bg-sc: #222;
 	--bg-th: #141416;
 	--text-color: #eee;
 	--p-color: #fafafa;
