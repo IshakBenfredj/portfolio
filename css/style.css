@@ -120,18 +120,6 @@ section {
 
 /* ############################################# */
 /* ############################################# */
-.bgland {
-	position: absolute;
-	right: 0;
-	top: 50px;
-	z-index: 20;
-}
-@media (max-width:767px) {
-	.bgland {
-		width: 250px;
-		opacity: .8;
-	}
-}
 .settings {
 	position: fixed;
     z-index: 101;
@@ -459,7 +447,8 @@ header .container .menu li.open>.toggle {
 /* End Header */
 /* Start Landing */
 .landing {
-	background-color: var(--bg-pr);
+	background: url(../images/banner-bg.png) no-repeat;
+	background-size: cover;
 	position: relative;
     top: 50px;
     height: calc(100vh - 50px);
@@ -499,7 +488,7 @@ header .container .menu li.open>.toggle {
 .landing .container .info h1 {
 	font-size: 55px;
     text-transform: capitalize;
-	color: var(--text-color);
+	color: #eee;
 }
 .landing .container .info h1 span:nth-child(2) {
     text-transform: uppercase;
@@ -634,3 +623,37 @@ header .container .menu li.open>.toggle {
 	text-transform: capitalize;
 }
 /* End About */
+
+.box {
+    margin: 100px;
+    background: #cddc39;
+    width: 500px;
+    height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box .circle {
+	position: relative;
+    width: 400px;
+    height: 400px;
+    background: conic-gradient(red 3.6deg, #fff 0deg);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box .circle::before {
+	content: '';
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: #f0ff;
+	z-index: 9;
+}
+.box .circle span {
+	font-size: 30px;
+	position: relative;
+	z-index: 10;
+}
